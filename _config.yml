@@ -4,7 +4,7 @@ bio:                'YEAH BUDDY LIGHT WEIGHT BABY'
 description:        "Moon is a minimal, one column jekyll theme for your blog."
 reading_time:       true
 words_per_minute:   200
-logo:               'assets/img/logo.png'
+logo:               '4427fd7f8e430808ca41a4568e26cc3a5af4c2e599b0ea0dcbfb8fc04587a17e8fd7a6f09c1d463512ef85ad774bed6200d109d21e4de08d6c81baf2873a1a87cbe9185e43ba3e45e82e4818b2b63c9fc7a56ecd02a8822ceee9546e729053a5df870ddb9d6117fe7c8bd4206ba9b217.jpeg'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
