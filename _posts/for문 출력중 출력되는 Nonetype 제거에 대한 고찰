@@ -1,4 +1,4 @@
-방안에 누워 학원숙제(네이버 뉴스검색에서 원하는 단어에 관련된 기사 10가지의 타이틀을 출력하는 것이였다)를 하던중
+<center><b>방안에 누워</b> 뉴스검색에서 원하는 단어에 관련된 기사 10가지의 타이틀을 출력하는 코드를 짜던중</center>
 
     import requests
     from bs4 import BeautifulSoup
@@ -12,10 +12,10 @@
 이 부분에서 문재가 발생했다.
 바로 Url이 Nonetye이 되는 것 이였는데, Nonetype이면 무(無)로 돌아가던가, 맷돌을 돌리려는데 어처구나기 없는 것 마냥 이 Nonetype때문에 url2가 url 에서 .get을 하지 못하고 있었다
 어떻게 처리하면 좋을까 이런저런 고민을 하게 되었는데
-이런 젠장, 너무 간단한걸 꼬아서 생각하고 있었다
-본좌는 Nonetype이 아닐때만 출력할 방법을 1시간동안 찾고 있었는데, 그러다 문득 생각났다 "문자열 일때만 출력 하면 되지 않을까" 라고
+이런, 너무 간단한걸 꼬아서 생각하고 있었다
+나는 Nonetype이 아닐때만 출력할 방법을 1시간동안 찾고 있었는데, 그러다 문득 생각났다 "문자열 일때만 출력 하면 되지 않을까" 라고
 그래서 바로
-
+~~~ python
     import requests
     from bs4 import BeautifulSoup
     response = requests.get('https://search.naver.com/search.naver?where=news&sm=tab_jum&query=고양이')
@@ -25,7 +25,7 @@
         url = tag.get('title')
         if type(url)==str:
             print(url)
-
+~~~
 이렇게 고쳐썼다.
 이런 제기랄
 바로 되더라
