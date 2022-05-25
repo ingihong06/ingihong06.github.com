@@ -25,7 +25,7 @@
         url = tag.get('title')
         if type(url)==str:
             print(url)
-~~~
+~~~ 
 이렇게 고쳐썼다.
 이런 제기랄
 바로 되더라
